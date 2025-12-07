@@ -32,7 +32,8 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 10px 0px;
-    box-shadow: 1px 0 5px 1px rgba(220, 220, 220, 0.47);
+    /* position: fixed; */
+    /* box-shadow: 1px 0 5px 1px rgba(220, 220, 220, 0.47); */
 }
 
 header img {
@@ -83,6 +84,13 @@ header h1:hover::after {
     } 
 }
 
+
+header nav {
+    box-shadow: 1px 1px 5px 1px rgba(220, 220, 220, 0.734);
+    border-radius: 20px;
+    padding: 15px 30px;
+
+}
 
 header nav ul {
     display: flex;
@@ -258,6 +266,10 @@ main .go i {
 /* Start Skills */
 
 .skills {
+    margin: 0 auto;
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(220, 220, 220, 0.734);
     background-color: rgba(109, 4, 109, 0.655);
     padding: 40px;
     display: flex;
@@ -343,7 +355,7 @@ main .go i {
 }
 
 .skills .box-skills {
-    width: 50%;
+    width: 60%;
     color: white;
     display: flex;
     justify-content: center;
@@ -439,7 +451,7 @@ main .go i {
 
 @media (max-width: 400px) {
     .projects .cards {
-        width: 100%;
+        width: 10   0%;
     }
 }
 
@@ -456,7 +468,8 @@ main .go i {
 
 .projects .cards .card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+    box-shadow: 0 2px 15px 1px #38adb186;
+    background-color: #3131314a;
 }
 
 .projects img {
@@ -495,6 +508,10 @@ main .go i {
 /* End project */
 /* Start contact */
 .contact {
+    margin: 0 auto;
+    width: 99%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 1px rgba(220, 220, 220, 0.734);
     background-color: rgba(109, 4, 109, 0.655);
     padding: 50px 30px;
     display: flex;
