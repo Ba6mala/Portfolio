@@ -32,8 +32,6 @@ header {
     justify-content: space-around;
     align-items: center;
     padding: 10px 0px;
-    /* position: fixed; */
-    /* box-shadow: 1px 0 5px 1px rgba(220, 220, 220, 0.47); */
 }
 
 header img {
@@ -407,6 +405,34 @@ main .go i {
     .skills .box-skills {
         width: 70%;
     }
+}
+
+@media (max-width: 450px) {
+    .skills .box-skills {
+        width: 100%;
+    }
+
+    .skills .box-skills .icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .skills .box-skills .html {
+        width: 80px;
+    }
+
+    .skills .box-skills img {
+        width: 40px;
+    }
+
+    .skills .box-skills .css {
+        width: 40px;
+    }
+
+    .skills .box-skills .js {
+        width: 60px;
+    }
+
 }
 /* End Skills */
 /* Start project */
