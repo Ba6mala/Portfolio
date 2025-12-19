@@ -209,9 +209,9 @@ main .text-about a {
 }
 
 main .text-about a:hover {
-    color: rgb(109, 4, 109);
+    color: white;
     border: 1px solid white;
-    background-color: transparent;
+    background-color: rgba(109, 4, 109, 0.556);
 }
 
 main img {
@@ -269,7 +269,7 @@ main .go i {
     border-radius: 10px;
     box-shadow: 1px 1px 5px 1px rgba(220, 220, 220, 0.734);
     background-color: rgba(109, 4, 109, 0.655);
-    padding: 40px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,7 +277,7 @@ main .go i {
 
 }
 .main-title {
-    margin: 50px auto;
+    margin: 0px auto 50px;
     border: 2px solid white;
     width: fit-content;
     padding: 10px 20px;
@@ -477,7 +477,7 @@ main .go i {
 
 @media (max-width: 400px) {
     .projects .cards {
-        width: 10   0%;
+        width: 100%;
     }
 }
 
