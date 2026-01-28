@@ -215,10 +215,10 @@ main .text-about a:hover {
 }
 
 main img {
-    width: 350px;
-    height: 300px;
+    width: 380px;
+    height: 350px;
     border-radius: 50%;
-    border: 5px solid rgb(216, 147, 216);
+    border: 6px solid rgb(216, 147, 216);
 }
 
 main .go {
